@@ -1,0 +1,41 @@
+\NeedsTeXFormat{LaTeX2e}[1994/06/01]
+\ProvidesPackage{siunitxext} [2016/12/15 Provides IP units to existing siunitx package]
+\RequirePackage{siunitx}
+% Begin defining new units.
+% Length
+\DeclareSIUnit\inch{in}
+\DeclareSIUnit\feet{ft}
+\DeclareSIUnit\yard{yd}
+\DeclareSIUnit\mile{mi}
+% Volume
+\DeclareSIUnit\fluidOunce{fl oz}
+\DeclareSIUnit\pint{pt}
+\DeclareSIUnit\quart{qt}
+\DeclareSIUnit\gallon{gal}
+% Mass 
+\DeclareSIUnit\grain{gr}
+\DeclareSIUnit\ounce{oz}
+\DeclareSIUnit\pound{lb}
+\DeclareSIUnit\ton{t}
+\DeclareSIUnit\slug{slug}
+
+% Temperature
+\DeclareSIUnit\rankine{R}
+\DeclareSIUnit[number-unit-product={}]\degreeF{\degree{}F}
+
+% Pressure
+\DeclareSIUnit\bar{bar}
+
+% Energy
+\DeclareSIUnit\btu{BTU}
+
+%Force
+\DeclareSIUnit\poundForce{lb\textsubscript{f}}
+
+% volumetric flow
+\DeclareSIUnit\cfm{CFM}
+
+% Moles
+\DeclareSIUnit\lbmol{lbmol}
+
+\endinput
