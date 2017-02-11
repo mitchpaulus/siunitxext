@@ -17,25 +17,27 @@ download the file and put into your Latex directly. Then call
 \usepackage{siunitxext}
 ```
 
-| Unit Macro  | Output         |
-| ----------  | -------------- |
-| \inch       | in             |
-| \feet       | ft             |
-| \yard       | yd             |
-| \mile       | mi             |
-| \fluidOunce | fl oz          |
-| \pint       | pt             |
-| \quart      | qt             |
-| \gallon     | gal            |
-| \grain      | gr             |
-| \ounce      | oz             |
-| \pound      | lb             |
-| \ton        | t              |
-| \slug       | slug           |
-| \rankine    | R              |
-| \degreeF    | &#176;F        |
-| \bar        | bar            |
-| \btu        | BTU            |
-| \poundForce | lb<sub>f</sub> |
-| \cfm        | CFM            |
-| \lbmol      | lbmol          |
+| Unit Macro  | Output                          |
+| ----------  | --------------                  |
+| \inch       | in                              |
+| \feet       | ft                              |
+| \yard       | yd                              |
+| \mile       | mi                              |
+| \fluidOunce | fl oz                           |
+| \pint       | pt                              |
+| \quart      | qt                              |
+| \gallon     | gal                             |
+| \grain      | gr                              |
+| \ounce      | oz                              |
+| \pound      | lb                              |
+| \ton        | t                               |
+| \slug       | slug                            |
+| \rankine    | R (yes, I've seen it both ways) |
+| \degreeF    | &#176;F                         |
+| \bar        | bar                             |
+| \btu        | BTU                             |
+| \poundForce | lb<sub>f</sub>                  |
+| \cfm        | CFM                             |
+| \lbmol      | lbmol                           |
+| \atm        | atm                             |
+| \degreeR    | degrees Rankine                 |
