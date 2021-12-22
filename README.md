@@ -18,10 +18,10 @@ Then you can input the contents directly by using an `\input` in the preamble.
 
 ```tex
 % Load useful ’local’ units
-\input{siunitx-local-units}
+\input{siunitx-local-units-v3}
 ```
 
-Note there are two versions, `siunitx_v2.tex` and `siunitx_v3.tex` .
+Note there are two versions, `siunitx-local-units-v2.tex` and `siunitx-local-units-v3.tex`.
 There were some changes to the options going from `siunitx` version 2 to 3.
 For now, the versions should be backwards compatible, but you can choose the matching version to be sure things work.
 
@@ -30,7 +30,7 @@ I'm going to leave it here, although I don't have plans to put it in CTAN,
 as the direct input method should suffice.
 You could still put the `.sty` file in the correct location and then call `usepackage` if desired.
 
-```
+```tex
 \usepackage{siunitxext}
 ```
 

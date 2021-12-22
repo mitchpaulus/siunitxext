@@ -27,24 +27,18 @@ def to_tex_file(file_name, spacing_option):
 
 
 def to_markdown_table():
-
     with open('table.md', 'w', encoding='utf-8') as f:
         f.write(" Unit Macro | Tex Output \n")
         f.write("----|----\n")
 
         for group in data["groups"]:
             for definition in group["definitions"]:
-
                 names = ', '.join([ '\\' + n for n in definition["names"] ])
 
                 # Write names comma separated
                 f.write(f"{names} | {definition['tex']} \n")
 
 
-
-to_tex_file("siunitx_v2.tex", "number-unit-product={}")
-to_tex_file("siunitx_v3.tex", "quantity-product={}")
-
+to_tex_file("siunitx-local-units-v2.tex", "number-unit-product={}")
+to_tex_file("siunitx-local-units-v3.tex", "quantity-product={}")
 to_markdown_table()
-
-
