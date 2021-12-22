@@ -1,11 +1,12 @@
 \NeedsTeXFormat{LaTeX2e}[1994/06/01]
-\ProvidesPackage{siunitxext} [2016/12/15 Provides IP units to existing siunitx package]
+\ProvidesPackage{siunitxext} [2021/12/22 Provides IP units to existing siunitx package]
 \RequirePackage{siunitx}
 % Begin defining new units.
 % Length
 \DeclareSIUnit\inch{in}
 \DeclareSIUnit\in{in}
 
+\DeclareSIUnit\foot{ft}
 \DeclareSIUnit\feet{ft}
 \DeclareSIUnit\ft{ft}
 
@@ -16,71 +17,79 @@
 \DeclareSIUnit\mi{mi}
 
 % Volume
-\DeclareSIUnit\fluidOunce{fl oz}
-\DeclareSIUnit\floz{fl oz}
-
-\DeclareSIUnit\pint{pt}
-\DeclareSIUnit\pt{pt}
+\DeclareSIUnit\gallon{gal}
+\DeclareSIUnit\gal{gal}
 
 \DeclareSIUnit\quart{qt}
 \DeclareSIUnit\qt{qt}
 
-\DeclareSIUnit\gallon{gal}
-\DeclareSIUnit\gal{gal}
-% Mass 
-\DeclareSIUnit\grain{gr}
-\DeclareSIUnit\gr{gr}
+\DeclareSIUnit\pint{pt}
+\DeclareSIUnit\pt{pt}
+
+\DeclareSIUnit\fluidOunce{floz}
+\DeclareSIUnit\floz{floz}
+
+\DeclareSIUnit\cup{cup}
+
+% Mass
+\DeclareSIUnit\pound{lb}
+\DeclareSIUnit\lb{lb}
 
 \DeclareSIUnit\ounce{oz}
 \DeclareSIUnit\oz{oz}
 
-\DeclareSIUnit\pound{lb}
-\DeclareSIUnit\lb{lb}
+\DeclareSIUnit\ton{t}
+
+\DeclareSIUnit\grain{gr}
+\DeclareSIUnit\gr{gr}
 
 \DeclareSIUnit\poundMass{lb\textsubscript{m}}
 \DeclareSIUnit\lbm{lb\textsubscript{m}}
 
-\DeclareSIUnit\ton{t}
 \DeclareSIUnit\slug{slug}
 
 % Temperature
 \DeclareSIUnit\rankine{R}
-\DeclareSIUnit[number-unit-product={}]\degreeF{\degree{}F}
-\DeclareSIUnit[number-unit-product={}]\dF{\degree{}F}
-\DeclareSIUnit[number-unit-product={}]\degF{\degree{}F}
 
-\DeclareSIUnit[number-unit-product={}]\degreeR{\degree{}R}
-\DeclareSIUnit[number-unit-product={}]\dR{\degree{}R}
-\DeclareSIUnit[number-unit-product={}]\degR{\degree{}R}
-\DeclareSIUnit[number-unit-product={}]\Rankine{\degree{}R}
-\DeclareSIUnit[number-unit-product={}]\rankine{\degree{}R}
+\DeclareSIUnit[number-unit-product={}]\fahrenheit{\degree{}F}
+\DeclareSIUnit[number-unit-product={}]\degF{\degree{}F}
+\DeclareSIUnit[number-unit-product={}]\dF{\degree{}F}
+\DeclareSIUnit[number-unit-product={}]\degreeF{\degree{}F}
+
 \DeclareSIUnit[number-unit-product={}]\degreeRankine{\degree{}R}
+\DeclareSIUnit[number-unit-product={}]\degR{\degree{}R}
+\DeclareSIUnit[number-unit-product={}]\dR{\degree{}R}
+\DeclareSIUnit[number-unit-product={}]\degreeR{\degree{}R}
 
 % Pressure
 \DeclareSIUnit\bar{bar}
-\DeclareSIUnit\atm{atm}
-\DeclareSIUnit\psia{psia}
-\DeclareSIUnit\psig{psig}
+
 \DeclareSIUnit\psi{psi}
 
+\DeclareSIUnit\psia{psia}
+
+\DeclareSIUnit\psig{psig}
+
+\DeclareSIUnit\atmosphere{atm}
+\DeclareSIUnit\atm{atm}
 
 % Energy
-\DeclareSIUnit\btu{btu}
 \DeclareSIUnit\BTU{BTU}
 
-%Force
+\DeclareSIUnit\btu{btu}
+
+% Force
 \DeclareSIUnit\poundForce{lb\textsubscript{f}}
 \DeclareSIUnit\lbf{lb\textsubscript{f}}
 
-% volumetric flow
+\DeclareSIUnit\poundDryAir{lb\textsubscript{da}}
+\DeclareSIUnit\lbda{lb\textsubscript{da}}
+
+% Volumetric Flow Rate
 \DeclareSIUnit\cfm{cfm}
-\DeclareSIUnit\CFM{CFM}
+\DeclareSIUnit\ft3{cfm}
 
 % Moles
 \DeclareSIUnit\lbmol{lbmol}
-
-% Other
-\DeclareSIUnit\poundDryAir{lb\textsubscript{da}}
-\DeclareSIUnit\lbda{lb\textsubscript{da}}
 
 \endinput

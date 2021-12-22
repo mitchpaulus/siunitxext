@@ -1,0 +1,167 @@
+{
+    "groups": [
+        {
+            "name": "Length",
+            "definitions": [
+                {
+                    "tex": "in",
+                    "names": ["inch", "in"]
+                },
+                {
+                    "tex": "ft",
+                    "names": ["foot", "feet", "ft"]
+                },
+                {
+                    "tex": "yd",
+                    "names": ["yard", "yd"]
+                },
+                {
+                    "tex": "mi",
+                    "names": ["mile", "mi"]
+                }
+            ]
+        },
+        {
+            "name": "Volume",
+            "definitions": [
+                {
+                    "tex": "gal",
+                    "names": ["gallon", "gal"]
+                },
+                {
+                    "tex": "qt",
+                    "names": ["quart", "qt"]
+                },
+                {
+                    "tex": "pt",
+                    "names": ["pint", "pt"]
+                },
+                {
+                    "tex": "floz",
+                    "names": ["fluidOunce", "floz"]
+                },
+                {
+                    "tex": "cup",
+                    "names": ["cup"]
+                }
+            ]
+        },
+        {
+            "name": "Mass",
+            "definitions": [
+                {
+                    "tex": "lb",
+                    "names": ["pound", "lb"]
+                },
+                {
+                    "tex": "oz",
+                    "names": ["ounce", "oz"]
+                },
+                {
+                    "tex": "t",
+                    "names": ["ton"]
+                },
+                {
+                    "tex": "gr",
+                    "names": ["grain", "gr"]
+                },
+                {
+                    "tex": "lb\\textsubscript{m}",
+                    "names": ["poundMass", "lbm"]
+                },
+                {
+                    "tex": "slug",
+                    "names": ["slug"]
+                }
+            ]
+        },
+        {
+            "name": "Temperature",
+            "definitions": [
+                {
+                    "tex": "R",
+                    "names": ["rankine"]
+                },
+                {
+                    "tex": "\\degree{}F",
+                    "names": ["fahrenheit", "degF", "dF", "degreeF"],
+                    "spacing": false
+                },
+                {
+                    "tex": "\\degree{}R",
+                    "names": ["degreeRankine", "degR", "dR", "degreeR"],
+                    "spacing": false
+                }
+            ]
+        },
+        {
+            "name": "Pressure",
+            "definitions": [
+                {
+                    "tex": "bar",
+                    "names": ["bar"]
+                },
+                {
+                    "tex": "psi",
+                    "names": ["psi"]
+                },
+                {
+                    "tex": "psia",
+                    "names": ["psia"]
+                },
+                {
+                    "tex": "psig",
+                    "names": ["psig"]
+                },
+                {
+                    "tex": "atm",
+                    "names": ["atmosphere", "atm"]
+                }
+            ]
+        },
+        {
+            "name": "Energy",
+            "definitions": [
+                {
+                    "tex": "BTU",
+                    "names": ["BTU"]
+                },
+                {
+                    "tex": "btu",
+                    "names": ["btu"]
+                }
+            ]
+        },
+        {
+            "name": "Force",
+            "definitions": [
+                {
+                    "tex": "lb\\textsubscript{f}",
+                    "names": ["poundForce", "lbf"]
+                },
+                {
+                    "tex": "lb\\textsubscript{da}",
+                    "names": ["poundDryAir", "lbda"]
+                }
+            ]
+        },
+        {
+            "name": "Volumetric Flow Rate",
+            "definitions": [
+                {
+                    "tex": "cfm",
+                    "names": ["cfm", "ft3"]
+                }
+            ]
+        },
+        {
+            "name": "Moles",
+            "definitions": [
+                {
+                    "tex": "lbmol",
+                    "names": ["lbmol"]
+                }
+            ]
+        }
+    ]
+}
